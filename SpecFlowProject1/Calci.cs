@@ -25,7 +25,7 @@ namespace SpecFlowProject1
         }
         public bool res1(string pname,int q)
         {
-            if(pname!=null &&pname!=" " && q != 0)
+            if(pname!=null &&pname!=" " && q > 0)
             {
                 return true;
             }
